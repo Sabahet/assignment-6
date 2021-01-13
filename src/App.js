@@ -1,7 +1,7 @@
 
 import './App.css';
 import React from 'react'
-import Result from "./components/Results"
+//import Result from "./components/Results"
 import ReactDOM from 'react-dom';
 import { render } from '@testing-library/react';
 
@@ -69,7 +69,7 @@ render(){
      </div>
 
 <div>
-  <h2> Enter a city and ill list the zipcodes</h2>
+  <h2 className = "header2"> Enter a city and ill list the zipcodes</h2>
 <form className = "zipSearch" onSubmit = {(e)=> this.getZipcodes(e)}>
           <input id="zipcode" name="zipcode" type="text" />
           <input id= "submit" name = "submit" type = "submit"/>
